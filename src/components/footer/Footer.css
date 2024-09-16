@@ -10,7 +10,8 @@ footer{
 footer .footer_top{
     width: 93%;
     height: 100%;
-    align-items: center;
+    align-items: flex-start;
+    /* margin-top: 50px; */
     justify-content: space-between;
     border: 2px solid black;
     display: flex;
@@ -18,19 +19,20 @@ footer .footer_top{
 }
 footer .footer_top .footer_top_item{
     display: flex;
+    gap: 10px;
     flex-direction: column;
 }
 footer .footer_top .footer_top_item h4{
     color: #fff;
     font-size: 20px;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
   font-family: "Inter", sans-serif;
     /* margin-top: -10px; */
 }
 footer .footer_top .footer_top_item a{
     color: #7d7D8c;
     font-size: 17px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   font-family: "Inter", sans-serif;
 
 
