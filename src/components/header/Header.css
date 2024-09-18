@@ -50,13 +50,21 @@
   width: 17px;
   height: 17px;
 }
-.header_top .last_span{
+.header_top .h_last_button{
   font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 .header_top .last_top{
   font-size: 11px;
   color: #444;
   margin-left: 6px;
+}
+.showDropdown{
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  /* margin-top: 40px; */
 }
 nav{
   width: 100%;
@@ -72,7 +80,8 @@ nav img{
 }
 nav .header_icon{
   display: flex;
-  gap: 25px;
+  gap: 40px;
+  margin-left: 5px;
 }
 
 nav .h_btn_1{
@@ -91,21 +100,25 @@ nav .h_btn_1:hover{
 }
 
 nav input{
-  width: 490px;
+  width: 510px;
   height: 50px;
   border: none;
   font-size: 15px;
   text-indent: 18px;
   background-color: #ddd;
-  border-top-left-radius: 9px;
-  border-bottom-left-radius: 9px;
+border-radius: 9px;
 }
+nav input:focus{
+  outline: none;
+  border: 1px solid #DD1470;
+}
+
 nav .input_btn{
-  padding: 14px 30px;
+  padding: 13px 30px;
   border-bottom-right-radius: 9px;
   border-top-right-radius: 9px;
   background-color: #fff;
-  margin-left: -60px;
+  margin-left: -138px;
   cursor: pointer;
   border: none;
   color: #2424246e;
@@ -114,8 +127,8 @@ nav .input_btn{
 
   font-size: 17px;
 }
-nav .input_btn:hover{
-  background-color: #eeeeeeb0;
+nav .input_btn:focus{
+  background-color: #DD1470;
 }
 
 .header_icon .h_icon_item .h_icon{
@@ -147,7 +160,9 @@ transition: 0.3s;
 .header_icon sup{
   padding: 1px 4px;
   /* margin-top: -10px; */
+  font-weight: 550;
   border-radius: 50%;
-  background-color: yellow;
+  margin-top: 100px;
+  background-color: #FFBF3C;
   
 }

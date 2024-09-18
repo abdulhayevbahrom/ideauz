@@ -1,7 +1,9 @@
 import React from "react";
 import HeaderTop from "./HeaderTop";
 import { FaBars, FaSearch,  } from 'react-icons/fa';
-import { CiHeart } from "react-icons/ci";
+// import { CiHeart } from "react-icons/ci";
+// import { CgHeart } from "react-icons/cg";
+import { AiOutlineHeart } from "react-icons/ai";
 import { CgShoppingBag } from "react-icons/cg";
 import { FaBalanceScale } from 'react-icons/fa';
 import { LuUser2 } from "react-icons/lu";
@@ -18,7 +20,7 @@ function Header() {
         <div className="header_icon">
           <div className="h_icon_item">
             <div>
-            <CiHeart className="h_icon"/>
+            <AiOutlineHeart className="h_icon"/>
             <span><sup>0</sup></span>
             </div>
             <div>
