@@ -11,11 +11,16 @@ footer .footer_top{
     width: 93%;
     height: 100%;
     align-items: flex-start;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     justify-content: space-between;
-    border: 2px solid black;
     display: flex;
 
+}
+footer .footer_top .footer_top_item:first-child{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
 }
 footer .footer_top .footer_top_item{
     display: flex;
@@ -47,10 +52,15 @@ footer .footer_top .footer_top_item .footer_icon{
     /* width: 41px; */
     /* height: 41px; */
     /* gap: 10px; */
-    padding-left: 10px;
-    font-size: 37px;
-    /* border: 1px solid black; */
+    color: #fff;
+    border: 2px solid #444;
     border-radius: 32px;
+    /* margin: 20px ; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 48px;
+    /* border: 1px solid black; */
+    /* border-radius: 32px; */
 }
 
 footer .footer_top .footer_top_item .footer_icon:last-child{
