@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100, 600..900;1,14..32,100..900&display=swap');
 
 
 .header_top {
@@ -80,7 +79,7 @@ nav img{
 }
 nav .header_icon{
   display: flex;
-  gap: 40px;
+  gap: 35px;
   margin-left: 5px;
 }
 
@@ -100,7 +99,7 @@ nav .h_btn_1:hover{
 }
 
 nav input{
-  width: 510px;
+  width: 520px;
   height: 50px;
   border: none;
   font-size: 15px;
