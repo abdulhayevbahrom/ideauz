@@ -184,6 +184,7 @@ nav .catalogBtn:hover {
   justify-content: center;
   flex-direction: column;
   position: relative;
+  color: #444;
 }
 
 .header_links .header_links_item span {
