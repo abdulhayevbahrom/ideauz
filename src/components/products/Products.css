@@ -64,6 +64,10 @@
   transition: 0.2s;
 }
 
+.product_item .product_icon_head .redHeart {
+  color: crimson;
+}
+
 .product_item .product_icon_head svg:first-child {
   opacity: 0;
 }
