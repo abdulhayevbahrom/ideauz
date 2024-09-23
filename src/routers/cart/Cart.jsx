@@ -8,7 +8,7 @@ function Cart() {
     <div className="cart">
       <div className="cart_header">
       
-        <Link to={"/"} /> Bo'sh sahifa
+      <Link to="/">bo'sh sahifa</Link>
       </div>
     </div>
   );
