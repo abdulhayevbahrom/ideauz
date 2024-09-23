@@ -28,7 +28,8 @@
 
 .saidbar{
     width: 85%;
-    height: 90%;
+    height:90%;
+    overflow: auto;
     background-color: #fff;
     padding:  50px;
     display: flex;
