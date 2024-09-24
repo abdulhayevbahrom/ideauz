@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Header from "./components/header/Header";
 import { Routes, Route } from "react-router-dom";
 import Compare from "./routers/compare/Compare";
@@ -6,6 +7,7 @@ import Home from "./routers/home/Home";
 import Footer from "./components/footer/Footer";
 import Cart from "./routers/cart/Cart";
 import Heart from "./routers/heart/Heart";
+// import Login from "./components/loginPage/Login";
 // import Bosh from "./components/bo'sh/Bo'sh";
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/compare" element={<Compare />} />
       </Routes>
-      <Footer/>
+      {/* <Login /> */}
+      <Footer />
     </div>
   );
 }

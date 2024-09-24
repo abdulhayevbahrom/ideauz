@@ -15,10 +15,10 @@ function Footer() {
               alt=""
             />
           </div>
-          <div>
-            <SiTelegram className="footer_icon" />
-            <FaFacebook className="footer_icon" />
-            <FaInstagram className="footer_icon" />
+          <div className="footer_icon">
+            <SiTelegram />
+            <FaFacebook />
+            <FaInstagram />
           </div>
         </div>
         <div className="footer_top_item">

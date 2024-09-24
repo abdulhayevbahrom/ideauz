@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.compare .empty-compare {
+  width: 100%;
+  min-height: 600px;
+  background-color: #f2f3f5;
+  padding: 32px 64px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare .empty-compare .path-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.compare .empty-compare .path-link a {
+  color: #282f3c;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.compare .empty-compare .path-link span {
+  font-size: 14px;
+  color: #dd1470;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare .empty-compare .path-link span .go-chevron {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.compare .empty-compare .path-link a:hover {
+  color: #dd1470;
+}
+
+.compare .empty-compare .container {
+  margin: 16px;
+  background-color: #fff;
+  width: 100%;
+  min-height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.compare .empty-compare .container .empty-info {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 48px);
+  place-items: center;
+  place-content: center;
+  /* background-color: red; */
+  align-items: flex-start;
+}
+
+.compare .empty-compare .container .empty-info h2 {
+  font-size: 32px;
+  color: #282f3c;
+  font-weight: 600;
+}
+
+.compare .empty-compare .container .empty-info p {
+  font-size: 14px;
+  color: #282f3c;
+}
+
+.compare .empty-compare .container .empty-info a {
+  all: unset;
+  font-size: 14px;
+  color: #fff;
+  background-color: #dd1470;
+  padding: 14px 36px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.compare .empty-compare .container .empty-info a:hover {
+  background-color: #a91238;
+}
+
+/* with elements */
+
+.compare .data-compare {
+  width: 100%;
+  min-height: 600px;
+  background-color: #f2f3f5;
+  padding: 32px 64px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare .data-compare .path-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.compare .data-compare .path-link a {
+  color: #282f3c;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.compare .data-compare .path-link span {
+  font-size: 14px;
+  color: #dd1470;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare .data-compare .path-link span .go-chevron {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.compare .data-compare .path-link a:hover {
+  color: #dd1470;
+}
+
+.compare .data-compare .container {
+  margin: 16px;
+  background-color: #fff;
+  width: 100%;
+  min-height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.compare .data-compare .container .empty-info {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 48px);
+  place-items: center;
+  place-content: center;
+  /* background-color: red; */
+  align-items: flex-start;
+}
+
+.compare .data-compare .container .empty-info h2 {
+  font-size: 32px;
+  color: #282f3c;
+  font-weight: 600;
+}
+
+.compare .data-compare .container .empty-info p {
+  font-size: 14px;
+  color: #282f3c;
+}
+
+.compare .data-compare .container .empty-info a {
+  all: unset;
+  font-size: 14px;
+  color: #fff;
+  background-color: #dd1470;
+  padding: 14px 36px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.compare .data-compare .container .empty-info a:hover {
+  background-color: #a91238;
+}
