@@ -1,13 +1,13 @@
 import React from "react";
 import "./Compare.css";
 import { Link } from "react-router-dom";
-// import compareEmpty from "./images/comparion-empty.webp";
+import compareEmpty from "./images/comparion-empty.webp";
 import { GoChevronRight } from "react-icons/go";
 
 function Compare() {
   return (
     <div className="compare">
-      {/* <div className="empty-compare">
+      <div className="empty-compare">
         <div className="path-link">
           <Link to={"/"}>Bosh sahifa</Link>
           <span>
@@ -26,8 +26,8 @@ function Compare() {
             <Link to={"/"}>Bosh sahifaga oʻtish</Link>
           </div>
         </div>
-      </div> */}
-      <div className="data-compare">
+      </div>
+      {/* <div className="data-compare">
         <div className="path-link">
           <Link to={"/"}>Bosh sahifa</Link>
           <span>
@@ -36,7 +36,7 @@ function Compare() {
           </span>
         </div>
         <div className="container"></div>
-      </div>
+      </div> */}
     </div>
   );
 }
