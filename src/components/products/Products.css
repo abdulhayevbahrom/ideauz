@@ -148,3 +148,8 @@
   color: #fff;
   background-color: var(--main-color);
 }
+
+.product_item_orangeBtn {
+  background-color: orange !important;
+  color: #fff;
+}

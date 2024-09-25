@@ -11,12 +11,16 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { addToHeart, removeFromHeart } from "../../context/heartSlice";
+import { addToCart, removeFromCart } from "../../context/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { FaHeart } from "react-icons/fa6";
+import { IoMdCheckmark } from "react-icons/io";
 
 function Products({ title, data }) {
   const dispatch = useDispatch();
   const heartData = useSelector((ombor) => ombor.heart);
+  const cartData = useSelector((ombor) => ombor.cart);
+  console.log("savatcha>>>>>", cartData);
 
   function addToFavorites(product) {
     dispatch(addToHeart(product));
@@ -66,9 +70,18 @@ function Products({ title, data }) {
             </span>
             <div className="product_actions">
               <button>Hozirni o'zidayoq xarid qilish</button>
-              <button>
-                <CgShoppingBag />
-              </button>
+              {cartData.some((i) => i.id === item.id) ? (
+                <button
+                  onClick={() => dispatch(removeFromCart(item.id))}
+                  className="product_item_orangeBtn"
+                >
+                  <IoMdCheckmark />
+                </button>
+              ) : (
+                <button onClick={() => dispatch(addToCart(item))}>
+                  <CgShoppingBag />
+                </button>
+              )}
             </div>
           </SwiperSlide>
         ))}

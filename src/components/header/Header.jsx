@@ -12,6 +12,7 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const heartData = useSelector((ombor) => ombor.heart);
+  const cartData = useSelector((ombor) => ombor.cart);
   return (
     <header>
       <HeaderTop />
@@ -38,7 +39,7 @@ function Header() {
           </Link>
 
           <Link to="/cart" className="header_links_item">
-            <span>0</span>
+            <span>{cartData.length}</span>
             <CgShoppingBag />
             <p>Savatcha</p>
           </Link>
