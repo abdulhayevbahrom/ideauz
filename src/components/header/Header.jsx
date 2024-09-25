@@ -8,8 +8,10 @@ import { LuUser2 } from "react-icons/lu";
 import "./Header.css";
 import { FiSearch } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function Header() {
+  const heartData = useSelector((ombor) => ombor.heart);
   return (
     <header>
       <HeaderTop />
@@ -30,7 +32,7 @@ function Header() {
 
         <div className="header_links">
           <Link to="/heart" className="header_links_item">
-            <span>0</span>
+            <span>{heartData.length}</span>
             <AiOutlineHeart />
             <p>Tanlanganlar</p>
           </Link>

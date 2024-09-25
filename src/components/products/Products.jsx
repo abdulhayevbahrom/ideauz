@@ -10,8 +10,18 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import { addToHeart, removeFromHeart } from "../../context/heartSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { FaHeart } from "react-icons/fa6";
 
 function Products({ title, data }) {
+  const dispatch = useDispatch();
+  const heartData = useSelector((ombor) => ombor.heart);
+
+  function addToFavorites(product) {
+    dispatch(addToHeart(product));
+  }
+
   return (
     <div className="products">
       <div className="products_header">
@@ -32,7 +42,14 @@ function Products({ title, data }) {
           <SwiperSlide className="product_item" key={index}>
             <div className="product_icon_head">
               <MdBalance />
-              <AiOutlineHeart />
+              {heartData?.some((i) => i.id === item.id) ? (
+                <FaHeart
+                  className="redHeart"
+                  onClick={() => dispatch(removeFromHeart(item.id))}
+                />
+              ) : (
+                <AiOutlineHeart onClick={() => addToFavorites(item)} />
+              )}
             </div>
 
             <Link className="product_img" to={"/"}>
