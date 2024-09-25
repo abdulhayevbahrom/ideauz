@@ -11,14 +11,24 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { addToHeart, removeFromHeart } from "../../context/heartSlice";
+import { addToCart, removeFromCart } from "../../context/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { FaHeart } from "react-icons/fa6";
+<<<<<<< HEAD
 import { addToCompare, removeFromCompare } from "../../context/compare";
+=======
+import { IoMdCheckmark } from "react-icons/io";
+>>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
 
 function Products({ title, data }) {
   const dispatch = useDispatch();
   const heartData = useSelector((ombor) => ombor.heart);
+<<<<<<< HEAD
   const compareData = useSelector((omborCompare) => omborCompare.compare);
+=======
+  const cartData = useSelector((ombor) => ombor.cart);
+  console.log("savatcha>>>>>", cartData);
+>>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
 
   function addToFavorites(product) {
     dispatch(addToHeart(product));
@@ -75,9 +85,18 @@ function Products({ title, data }) {
             </span>
             <div className="product_actions">
               <button>Hozirni o'zidayoq xarid qilish</button>
-              <button>
-                <CgShoppingBag />
-              </button>
+              {cartData.some((i) => i.id === item.id) ? (
+                <button
+                  onClick={() => dispatch(removeFromCart(item.id))}
+                  className="product_item_orangeBtn"
+                >
+                  <IoMdCheckmark />
+                </button>
+              ) : (
+                <button onClick={() => dispatch(addToCart(item))}>
+                  <CgShoppingBag />
+                </button>
+              )}
             </div>
           </SwiperSlide>
         ))}
