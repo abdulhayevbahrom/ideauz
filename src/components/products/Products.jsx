@@ -13,10 +13,12 @@ import { Navigation } from "swiper/modules";
 import { addToHeart, removeFromHeart } from "../../context/heartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { FaHeart } from "react-icons/fa6";
+import { addToCompare, removeFromCompare } from "../../context/compare";
 
 function Products({ title, data }) {
   const dispatch = useDispatch();
   const heartData = useSelector((ombor) => ombor.heart);
+  const compareData = useSelector((omborCompare) => omborCompare.compare);
 
   function addToFavorites(product) {
     dispatch(addToHeart(product));
@@ -41,7 +43,14 @@ function Products({ title, data }) {
         {data?.map((item, index) => (
           <SwiperSlide className="product_item" key={index}>
             <div className="product_icon_head">
-              <MdBalance />
+              {compareData?.some((i) => i.id === item.id) ? (
+                <MdBalance
+                  className="red-compare"
+                  onClick={() => dispatch(removeFromCompare(item.id))}
+                />
+              ) : (
+                <MdBalance onClick={() => dispatch(addToCompare(item))} />
+              )}
               {heartData?.some((i) => i.id === item.id) ? (
                 <FaHeart
                   className="redHeart"

@@ -68,11 +68,21 @@
   color: crimson;
 }
 
+.product_item .product_icon_head .red-compare {
+  color: #dd1470;
+  opacity: 1;
+}
+
 .product_item .product_icon_head svg:first-child {
   opacity: 0;
 }
 
 .product_item:hover .product_icon_head svg:first-child {
+  opacity: 1;
+}
+
+.product_item .product_icon_head .red-compare {
+  color: #dd1470;
   opacity: 1;
 }
 

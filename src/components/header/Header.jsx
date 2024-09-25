@@ -12,6 +12,7 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const heartData = useSelector((ombor) => ombor.heart);
+  const compareData = useSelector((omborCompare) => omborCompare.compare);
   return (
     <header>
       <HeaderTop />
@@ -44,7 +45,7 @@ function Header() {
           </Link>
 
           <Link to="/compare" className="header_links_item">
-            <span>0</span>
+            <span>{compareData.length}</span>
             <FaBalanceScale />
             <p>Taqqoslash</p>
           </Link>
