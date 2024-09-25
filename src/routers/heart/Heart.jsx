@@ -34,7 +34,7 @@ function Heart() {
                 <img src={item.images[0]} alt="" />
 
                 <div className="text">
-                  <h2>{item.price} сум х 6 мес</h2>
+                  <h2 className="item1">{item.price} сум х 6 мес</h2>
                   <p>{item.name}</p>
                   <p>Код товара: 9118</p>
                 </div>
