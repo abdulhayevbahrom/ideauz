@@ -51,6 +51,7 @@
 .cart .cart_header svg {
   color: #dd1470;
   font-size: 12px;
+  cursor: pointer;
   font-weight: 100 !important;
 }
 .cart .cart_header p {
@@ -144,14 +145,18 @@
   place-items: center;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 .cart_item_actions .cart_item_count svg {
   font-size: 13px;
+  cursor: pointer;
+
 }
 
 .cart_item_actions svg {
   color: grey;
+  cursor: pointer;
   font-size: 24px;
 }
 

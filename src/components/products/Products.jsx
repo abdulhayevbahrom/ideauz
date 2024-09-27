@@ -14,21 +14,14 @@ import { addToHeart, removeFromHeart } from "../../context/heartSlice";
 import { addToCart, removeFromCart } from "../../context/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { FaHeart } from "react-icons/fa6";
-<<<<<<< HEAD
 import { addToCompare, removeFromCompare } from "../../context/compare";
-=======
 import { IoMdCheckmark } from "react-icons/io";
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
 
 function Products({ title, data }) {
   const dispatch = useDispatch();
   const heartData = useSelector((ombor) => ombor.heart);
-<<<<<<< HEAD
   const compareData = useSelector((omborCompare) => omborCompare.compare);
-=======
   const cartData = useSelector((ombor) => ombor.cart);
-  console.log("savatcha>>>>>", cartData);
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
 
   function addToFavorites(product) {
     dispatch(addToHeart(product));

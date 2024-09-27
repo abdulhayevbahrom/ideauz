@@ -144,6 +144,7 @@
   font-size: 14px;
   border-radius: 9px;
   border: none;
+  cursor: pointer;
   transition: 0.3s;
 }
 
@@ -156,6 +157,7 @@
   width: 50px;
   font-size: 23px;
   color: #fff;
+  cursor: pointer;
   background-color: var(--main-color);
 }
 

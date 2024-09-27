@@ -37,7 +37,7 @@ function Banner() {
           className="mySwiper"
         >
           {bannerImages?.map((url, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <img src={url} alt="" />
             </SwiperSlide>
           ))}

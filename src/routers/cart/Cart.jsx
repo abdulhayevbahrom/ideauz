@@ -1,9 +1,7 @@
 import React from "react";
 import "./Cart.css";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
 import "./Cart.css";
-=======
 import { smartfonData } from "../../data/productsData";
 import { FaChevronRight, FaMinus, FaPlus } from "react-icons/fa6";
 import Products from "../../components/products/Products";
@@ -19,7 +17,6 @@ import {
   decrementQuantity,
 } from "../../context/cartSlice";
 import { NumberFormat } from "../../hook/numberFormat";
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
 
 function Cart() {
   const dispatch = useDispatch();
@@ -29,11 +26,7 @@ function Cart() {
 
   return (
     <div className="cart">
-<<<<<<< HEAD
-      <div className="cart_header">
-        <Link to={"/"} /> Bo'sh sahifa
-      </div>
-=======
+      <div className="cart_header"></div>
       {!cartData?.length ? (
         <div className="empty_block">
           <div className="cart_header">
@@ -121,7 +114,6 @@ function Cart() {
         </div>
       )}
       <Products title={"Smartfonlar"} data={smartfonData} />
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     </div>
   );
 }

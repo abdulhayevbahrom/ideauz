@@ -29,7 +29,7 @@ function HeaderTop() {
           <img src={uzFlag} alt="Flag" />
           <p>O'zbekcha</p>
           <FaChevronDown />
-          <div className="lang">
+          {/* <div className="lang">
             <h3>Tilni tanglang</h3>
             <div className="langItem">
               <input type="radio" />
@@ -41,7 +41,7 @@ function HeaderTop() {
               <img src={uzbFlag} alt="" />
               O'zbekcha
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

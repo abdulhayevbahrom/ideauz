@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderTop from "./HeaderTop";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineHeart } from "react-icons/ai";
@@ -7,31 +7,37 @@ import { FaBalanceScale } from "react-icons/fa";
 import { LuUser2 } from "react-icons/lu";
 import "./Header.css";
 import { FiSearch } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 function Header() {
+  const navigate = useNavigate();
+  const [searchValue, setSearchValue] = useState("hello");
   const heartData = useSelector((ombor) => ombor.heart);
-<<<<<<< HEAD
   const compareData = useSelector((omborCompare) => omborCompare.compare);
-=======
   const cartData = useSelector((ombor) => ombor.cart);
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
+
   return (
     <header>
       <HeaderTop />
       <nav>
-        <img
-          src="https://premier.uz/files/global/partners/idea_logo.png"
-          alt=""
-        />
+        <Link to={"/"}>
+          <img
+            src="https://premier.uz/files/global/partners/idea_logo.png"
+            alt=""
+          />
+        </Link>
         <button className="catalogBtn">
           Mahsulotlar katologi <FaBars />
         </button>
         <div className="searchbar">
-          <input type="text" placeholder="Qidiruv" />
+          <input
+            onChange={(e) => setSearchValue(e.target.value)}
+            type="text"
+            placeholder="Qidiruv"
+          />
           <button>
-            <FiSearch />
+            <FiSearch onClick={() => navigate(`/search/${searchValue}`)} />
           </button>
         </div>
 
