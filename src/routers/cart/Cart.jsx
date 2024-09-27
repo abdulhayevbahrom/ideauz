@@ -33,10 +33,13 @@ function Cart() {
             <p>Savatcha</p>
           </div>
           <div className="empty_block_item">
-            <img
-              src="https://idea.uz/_next/image?url=%2Fimg%2Fothers%2Fbasket-empty.png&w=1920&q=75"
-              alt=""
-            />
+          <link href="/" to="/singlepage" target="_blank">
+  <img 
+      src="https://idea.uz/_next/image?url=%2Fimg%2Fothers%2Fbasket-empty.png&w=1920&q=75"
+      alt="Basket is empty"
+  />
+</link>
+
             <h2>Savatchada hozircha hech narsa yoʻq</h2>
             <p>
               siz xaridni asosiy sahifadan boshlashingiz yoki qidiruvdan

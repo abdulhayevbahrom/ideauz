@@ -6,18 +6,19 @@ import Home from "./routers/home/Home";
 import Footer from "./components/footer/Footer";
 import Cart from "./routers/cart/Cart";
 import Heart from "./routers/heart/Heart";
-// import Bosh from "./components/bo'sh/Bo'sh";
+import Singlepage from "./routers/singlepage/Singlepage"
 
 function App() {
   return (
     <div className="app">
       <Header />
-      {/* <Bosh /> */}
+      <Singlepage/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/heart" element={<Heart />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/compare" element={<Compare />} />
+
       </Routes>
       <Footer/>
     </div>

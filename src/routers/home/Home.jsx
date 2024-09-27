@@ -5,7 +5,7 @@ import {uyUchunMaishiyTexnikaData, kattaMaishiyTexnikaData, maishiyTexnika, smar
 
 function Home() {
   return (
-    <div>
+    <div> 
       <Banner />
       <Products title="Sotuvlar Xiti" data={maishiyTexnika} />
       <Products title="Smartfonlar" data={smartfonData} />
