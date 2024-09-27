@@ -228,14 +228,9 @@ export const smartfonData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 8,
-=======
-  }, {
     id: 15,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Смартфон Tecno Camon 30 8/256 Basaltic Dark",
     price: 2890000,
     images: [
@@ -250,14 +245,9 @@ export const smartfonData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 9,
-=======
-  }, {
     id: 16,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Смартфон Honor 200 Pro 12/512 Ocean Cyan",
     price: 9999000,
     images: [
@@ -353,14 +343,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 3,
-=======
-  }, {
     id: 22,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Стиральная машина Premier PRM70F1201LIN/W",
     price: 4099000,
     images: [
@@ -374,14 +359,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 4,
-=======
-  }, {
     id: 23,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Газовая плита Artel Milagro 02-G Черный",
     price: 3790000,
     images: [
@@ -395,14 +375,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 5,
-=======
-  }, {
     id: 24,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Газовая плита Shivaki 6402-G Серый",
     price: 3790000,
     images: [
@@ -416,14 +391,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 6,
-=======
-  }, {
     id: 25,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Газовая плита Shivaki 6300-K Eco Cepый",
     price: 2790000,
     images: [
@@ -435,14 +405,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 7,
-=======
-  }, {
     id: 26,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Газовая плита Shivaki 6402-G Серый",
     price: 3790000,
     images: [
@@ -456,14 +421,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 8,
-=======
-  }, {
     id: 27,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Газовая плита Artel Milagro 01-K Серый",
     price: 3490000,
     images: [
@@ -508,14 +468,9 @@ export const kattaMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 11,
-=======
-  }, {
     id: 30,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Холодильник LG GN-H702HEHL",
     price: 14999000,
     images: [
@@ -615,14 +570,9 @@ export const uyUchunMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 5,
-=======
-  },  {
     id: 36,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Швейная машина CHAYKA HomePro",
     price: 2350000,
     images: [
@@ -637,14 +587,9 @@ export const uyUchunMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 6,
-=======
-  },  {
     id: 37,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Хозяйственный пылесос Karcher WD 2 Plus V-12/4/18/C (YYY) *EU",
     price: 1440000,
     images: [
@@ -656,14 +601,9 @@ export const uyUchunMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 7,
-=======
-  },  {
     id: 38,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Хозяйственный пылесос Karcher WD 3 S V-17/4/20 (YSY) *EU",
     price: 1785000,
     images: [
@@ -689,14 +629,9 @@ export const uyUchunMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 9,
-=======
-  },{
     id: 40,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Пылесос для сухой уборки Karcher VC 2 (ERP)*KAP",
     price: 1700000,
     images: [
@@ -708,14 +643,9 @@ export const uyUchunMaishiyTexnikaData = [
     controlType: "electron",
     description:
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
-<<<<<<< HEAD
   },
   {
-    id: 10,
-=======
-  },{
     id: 41,
->>>>>>> bf1ce73f347466f4ae69102295a00bfcbc4df353
     name: "Пылесос для сухой уборки Karcher VC 3 Plus *KAP",
     price: 2200000,
     images: [

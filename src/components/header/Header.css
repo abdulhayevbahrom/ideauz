@@ -108,6 +108,7 @@ nav {
 
 nav img {
   width: 100px;
+  cursor: pointer;
 }
 nav .header_icon {
   display: flex;

@@ -1,15 +1,18 @@
 import React from "react";
 import "./Compare.css";
 import compareEmpty from "./images/comparion-empty.webp";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { GoChevronRight } from "react-icons/go";
 import { useSelector, useDispatch } from "react-redux";
 import { removeFromCompare } from "../../context/compare";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { FaPlus } from "react-icons/fa6";
 
 function Compare() {
   const dispatch = useDispatch();
   const compareData = useSelector((omborCompare) => omborCompare.compare);
+  const navigate = useNavigate();
+
   return (
     <div className="compare">
       {!compareData.length ? (
@@ -44,7 +47,7 @@ function Compare() {
           </div>
           <div className="property-options">
             <label htmlFor="property1">
-              <input type="radio" name="property" id="property1" />
+              <input type="radio" name="property" id="property1" focus />
               Barcha hususiyatlar
             </label>
             <label htmlFor="property2">
@@ -53,34 +56,49 @@ function Compare() {
             </label>
           </div>
           <div className="container">
-            {compareData?.map((product, index) => (
-              <div className="compare-products-compare" key={index}>
-                <div className="image">
-                  <RiDeleteBin6Line
-                    onClick={() => {
-                      dispatch(removeFromCompare(product.id));
-                    }}
-                  />
-                  <img src={product.image} alt="" />
+            <div className="compare-products">
+              {compareData?.map((product, index) => (
+                <div className="compare-product" key={index}>
+                  <div className="image">
+                    <RiDeleteBin6Line
+                      className="delete-compare"
+                      onClick={() => {
+                        dispatch(removeFromCompare(product.id));
+                      }}
+                    />
+                    <img src={product.images[0]} alt="" />
+                  </div>
+                  <div className="name-price">
+                    <h3>
+                      {product.price} so'm
+                      <span className="small-text"> X 6 oy</span>
+                    </h3>
+                    <Link>
+                      <p>{product.name}</p>
+                    </Link>
+                  </div>
                 </div>
-                <div className="name-price">
-                  <span>
-                    499.454 so'm <span className="small-text">X oy</span>
-                  </span>
+              ))}
+              {compareData.length <= 4 && (
+                <div className="add-to-compare" onClick={() => navigate("/")}>
+                  <FaPlus className="plus-icon" />
+                  <p>Taqqoslash uchun qo'shish</p>
                 </div>
-              </div>
-            ))}
+              )}
+            </div>
             <div className="property-title">
               <h2>Umumiy xususiyatlar</h2>
             </div>
-            {compareData?.map((property) => (
-              <div className="mach-properties">
-                <div className="property-name">
-                  <h3>Rang</h3>
-                  <p>{property.color}</p>
+            <div className="match-properties-container">
+              {compareData?.map((property, index) => (
+                <div key={index} className="match-properties">
+                  <div className="property-name">
+                    <h3>Operatsion tizim versiyasi</h3>
+                    <p>Android 11</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       )}
