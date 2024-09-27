@@ -16,7 +16,6 @@ function Login() {
         <TfiClose className="x-icon" />
         <h4>Kirish</h4>
         <form>
-          {/* <input type="number" name="" id="" /> */}
           <InputMask
             mask="+998 (99) 999-99-99"
             value={phone}
