@@ -56,7 +56,7 @@ function Search() {
             </div>
             <div className="search_bar_bottom_item">
               <input type="number" name="" id="" />
-              {/* <input type="number" name="" id="" /> */}
+              <input type="number" name="" id="" />
             </div>
           </div>
         </div>

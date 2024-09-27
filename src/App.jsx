@@ -7,8 +7,6 @@ import Home from "./routers/home/Home";
 import Footer from "./components/footer/Footer";
 import Cart from "./routers/cart/Cart";
 import Heart from "./routers/heart/Heart";
-import Login from "./components/loginPage/Login";
-// import Bosh from "./components/bo'sh/Bo'sh";
 import Search from "./routers/search/Search";
 
 function App() {
@@ -22,7 +20,6 @@ function App() {
         <Route path="/compare" element={<Compare />} />
         <Route path="/search/:name" element={<Search />} />
       </Routes>
-      <Login />
       <Footer />
     </div>
   );

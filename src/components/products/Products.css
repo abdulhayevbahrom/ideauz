@@ -69,8 +69,8 @@
 }
 
 .product_item .product_icon_head .red-compare {
-  color: #dd1470;
-  opacity: 1;
+  color: #dd1470 !important;
+  opacity: 1 !important;
 }
 
 .product_item .product_icon_head svg:first-child {

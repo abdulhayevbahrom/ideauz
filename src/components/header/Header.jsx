@@ -9,6 +9,7 @@ import "./Header.css";
 import { FiSearch } from "react-icons/fi";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Login from "../loginPage/Login";
 
 function Header() {
   const navigate = useNavigate();
@@ -16,10 +17,12 @@ function Header() {
   const heartData = useSelector((ombor) => ombor.heart);
   const compareData = useSelector((omborCompare) => omborCompare.compare);
   const cartData = useSelector((ombor) => ombor.cart);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <header>
       <HeaderTop />
+      {openModal && <Login setOpenModal={setOpenModal} />}
       <nav>
         <Link to={"/"}>
           <img
@@ -60,7 +63,10 @@ function Header() {
             <p>Taqqoslash</p>
           </Link>
 
-          <Link to="/login" className="header_links_item">
+          <Link
+            onClick={() => setOpenModal(!openModal)}
+            className="header_links_item"
+          >
             <LuUser2 />
             <p>Kirish</p>
           </Link>
