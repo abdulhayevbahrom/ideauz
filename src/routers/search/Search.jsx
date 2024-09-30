@@ -16,7 +16,7 @@ function Search() {
     {uyUchunMaishiyTexnikaData},
     {kattaMaishiyTexnikaData},
     {maishiyTexnika},
-    {smartfonData}
+    {smartfonData},
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
