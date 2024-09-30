@@ -11,6 +11,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Login from "../loginPage/Login";
 
+
 function Header() {
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState("hello");
@@ -18,7 +19,7 @@ function Header() {
   const compareData = useSelector((omborCompare) => omborCompare.compare);
   const cartData = useSelector((ombor) => ombor.cart);
   const [openModal, setOpenModal] = useState(false);
-
+ 
   return (
     <header>
       <HeaderTop />
