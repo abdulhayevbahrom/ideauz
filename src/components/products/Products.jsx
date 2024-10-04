@@ -64,7 +64,7 @@ function Products({ title, data }) {
               )}
             </div>
 
-            <Link className="product_img" to={"/"}>
+            <Link className="product_img" to={"/singlepage"}>
               <img src={item.images[0]} alt="img" />
             </Link>
             <b>{item.price} so'm</b>

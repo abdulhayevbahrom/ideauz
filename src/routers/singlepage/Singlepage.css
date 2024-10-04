@@ -1,0 +1,32 @@
+.singlepage {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.header_top1 {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: #666c76;
+    }
+
+    a:last-child {
+      color: rgb(221, 20, 112);
+    }
+  }
+}
+
+.malumot {
+  width: 90%;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(221, 20, 112);
+}

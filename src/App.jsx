@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Cart from "./routers/cart/Cart";
 import Heart from "./routers/heart/Heart";
 import Search from "./routers/search/Search";
+import Singlepage from "./routers/singlepage/Singlepage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/singlepage" element={<Singlepage />} />
         <Route path="/heart" element={<Heart />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/compare" element={<Compare />} />
